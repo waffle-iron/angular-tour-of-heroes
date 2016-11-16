@@ -1,8 +1,10 @@
 import { Component } from '@angular/core';
+
 export class Hero {
   id: number;
   name: string;
 }
+
 const HEROES: Hero[] = [
   { id: 11, name: 'Mr. Nice' },
   { id: 12, name: 'Narco' },
@@ -15,8 +17,9 @@ const HEROES: Hero[] = [
   { id: 19, name: 'Magma' },
   { id: 20, name: 'Tornado' }
 ];
+
 @Component({
-  selector: 'my-app',
+  selector: 'app-root',
   template: `
     <h1>{{title}}</h1>
     <h2>My Heroes</h2>
@@ -86,6 +89,7 @@ const HEROES: Hero[] = [
     }
   `]
 })
+
 export class AppComponent {
   title = 'Tour of Heroes';
   heroes = HEROES;
