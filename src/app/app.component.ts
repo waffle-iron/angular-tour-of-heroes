@@ -19,7 +19,7 @@ const HEROES: Hero[] = [
 ];
 
 @Component({
-  selector: 'my-app',
+  selector: 'app-root',
   template: `
     <h1>{{title}}</h1>
     <h2>My Heroes</h2>
