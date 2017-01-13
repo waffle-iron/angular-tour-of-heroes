@@ -1,3 +1,4 @@
+[![Stories in Ready](https://badge.waffle.io/dylanpinn/angular-tour-of-heroes.png?label=ready&title=Ready)](https://waffle.io/dylanpinn/angular-tour-of-heroes)
 # TourOfHeroes
 
 This project was generated with [angular-cli](https://github.com/angular/angular-cli) version 1.0.0-beta.22-1.
